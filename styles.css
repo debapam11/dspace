@@ -1,0 +1,156 @@
+ @import url('https://fonts.googleapis.com/css?family=Fugaz+One&display=swap');
+
+
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+.main-header{
+	background-color: rgba(100,100,255,.6);
+	background-size: cover;
+
+}
+
+*{
+	box-sizing: border-box;
+}
+.header-img{
+	width: 60px;
+	margin: 10px;
+	padding: 5px;
+}
+
+.header-title{
+	display: block;
+	font-size: 270%;
+	height: 60px;
+	width: 100%;
+	vertical-align: middle;
+	padding: 5px;
+}
+.div-header{
+	display: inline;
+	padding-bottom: .5em;
+}
+.main-header{
+	max-width: 100%;
+	padding: 0 2.5em;
+	margin: 5 auto;
+}
+.mh{
+	display: flex;
+	align-items: center;
+}
+.search-title{
+	font-size: 1.67em;
+	padding-left: 2em;
+	margin-top: 35px;
+}
+.choice-class{
+	margin-left: 30px;
+	height: 50px;
+}
+.item-choice{
+	margin: 0 10px;
+}
+
+
+.btn{
+	text-align: left;
+	vertical-align: middle;
+	padding: 0.67em;
+	cursor: pointer;
+}
+.btn-header{
+	margin: 10px;
+	color: #333;
+	border: 4px solid #2D9CDB;
+	background-color: rgba(182,180,255,.7);
+	border-radius: 0;
+	font-size: 1em;
+	font-weight: lighter;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+.btn-header:hover{
+	background-color: rgba(0,0,255,.3)
+}
+
+.refresh{
+	margin: 20px 30px;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0.67em;
+	cursor: pointer;
+	
+}
+.refresh:hover{
+	background-color: rgba(255,100,100);
+}
+
+.submit{
+	margin: 20px 30px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0.67em;
+	cursor: pointer;
+	height: 50px;
+	width: 150px;
+}
+.submit:hover{
+	background-color: rgba(90,80,255,.3);
+}
+
+.choice-class{
+	margin: 20px 30px;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0.4em;
+
+}
+
+.item-choice{
+	margin: 20px 30px;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0.4em;
+}
+
+
+.main-footer{
+	background-color: #56CCF2;
+	color: white;
+	padding: .25em 0;
+}
+
+.band-name-2{
+	text-align: center;
+	margin: 0;
+	font-size: 2em;
+	font-family: 'Muli', sans-serif;
+	font-weight: lighter;
+	color: black;
+}
+
+.content{
+	margin: 1em;
+}
+
+.bodystyle{
+	overflow: scroll;
+}
+
+.choicewidth{
+	height: 50px;
+	text-align: center;
+	width: auto;
+}
+
+.tab{
+	border: 10px;
+}

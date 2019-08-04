@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PostgreSQL Query Interface</title>
+	<meta name="description" content="This is a Query Interface">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+		<header class="main-header mh">
+				<img class="header-img" src="dspace-logo-only.png">
+				<span class="header-title">Repository Query Interface</span>
+		</header>
+
+		<h2 class="search-title">Search or List items</h2>
+	<form action="search.php" method="post">
+		<select class="choice-class" name="stage-selection">
+			<option value="NULL">Stage Select..</option>
+			<option value="1">Community/Sub-Community</option>
+			<option value="2">Collection</option>
+			<option value="3">All of Dspace(</option>
+		</select>
+		<select class="item-choice" name="item-choice">
+			<option value="NULL">Stage No.</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+		</select>
+		<a href="localhost:80/search.php"><input type="submit" name="submit"></a>
+		<!--<div class="submit-button">-->
+			<!--<button class="btn btn-header" type="button" name="button">List Items</button> -->
+	</form>
+
+		<?php
+
+			echo $_POST["stage-selection"]
+
+
+		?>
+
+
+	
+
+
+	
+	</body>
+</html>
